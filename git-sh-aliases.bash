@@ -30,6 +30,8 @@ gitalias amend='git commit --verbose --amend'
 gitalias n='git commit --verbose --amend'
 gitalias k='git cherry-pick'
 gitalias re='git rebase --interactive'
+gitalias ra='git rebase --abort'
+gitalias rc='git rebase --continue'
 gitalias pop='git reset --soft HEAD^'
 gitalias peek='git log -p --max-count=1'
 
@@ -37,6 +39,7 @@ gitalias peek='git log -p --max-count=1'
 gitalias f='git fetch'
 gitalias pm='git pull'          # mnemonic: pull merge
 gitalias pr='git pull --rebase' # mnemonic: pull rebase
+gitalias po='git push origin'
 
 # git diff
 gitalias d='git diff'
